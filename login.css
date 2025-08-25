@@ -1,0 +1,94 @@
+/* Full-page background */
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-image: url('9f3879cd-2b3e-42f1-9aa8-e867d8cad275.jpg'); /* your uploaded image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(2, 2, 2);
+}
+
+/* Login container */
+.login-container {
+  background: rgba(75, 244, 75, 0.5); /* semi-transparent background */
+  backdrop-filter: blur(10px); /* blurred effect behind container */
+  padding: 40px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+}
+
+/* Heading */
+.login-container h2 {
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+/* Input fields */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: none;
+  border-bottom: 2px solid rgb(69, 136, 13);
+  background: transparent;
+  color: rgb(7, 3, 3);
+  font-size: 16px;
+}
+
+.login-container input::placeholder {
+  color:rgb(87, 72, 72);
+}
+
+/* Options (checkbox + forgot password) */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.options a {
+  color: #f60505eb;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+/* Login button */
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color:white;
+  color:black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #65ee63;
+}
+
+/* Register link */
+.register-link {
+  margin-top: 20px;
+}
+
+.register-link a {
+  color: #109dbd;
+  text-decoration: underline;
+}
+h1{
+    margin-bottom: 60px;
+    margin-top: 5px;
+}

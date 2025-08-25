@@ -1,0 +1,102 @@
+h2{
+    text-align: center;
+}
+
+
+
+/* Navigation styles */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+  border-top: 40px solid green; /* ← remove or set to thin green line */
+}
+
+.nav-links li.right {
+  margin-left: auto; /* Push Login & Register to right */
+}
+
+/* Link styles */
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  padding: 1px;
+  list-style: none;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.right-menu {
+  margin-left: 10px;  /* pushes Register & Login to right */
+  display: flex;
+}
+
+.right-menu li {
+  margin-left: 1cqmax;
+}
+    .site-title {
+  font-size: 48px;   /* Increase this value as needed */
+  font-weight: bold;
+  color: white;      /* Change color if background is dark */
+  text-align: center;
+  margin: 15px 0;
+}
+
+#myid{
+    text-align: center;
+    color:rgb(204, 45, 17);
+}
+h1{
+  padding-top: 20px;
+  
+}
+footer{
+background-color: darkgreen;
+color: white;
+height:1cm;
+text-align: center;
+}
+/* Make page take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Push footer to bottom */
+footer {
+  margin-top: auto;
+  background-color: #004d00; /* dark green background */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Farmer Market - Home</title>
+ 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="background.css">
+</head>
+
+<body style="background-image: url('photos/vg.jpg'); 
+             background-size: cover; 
+             background-position: center; 
+             background-repeat: no-repeat; 
+             height: 100vh; 
+             margin: 0;">
+  
+  <!-- Header -->
+  <header class="main-header">
+    <h1 class="site-title">Welcome to Crop2Cart</h1>
+
+<nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="services.html">services</a></li>
+    <li><a href="Reviews.html">Reviews</a></li>
+
+    <!-- Push to right -->
+    <li class="right"><a href="Register.html">Register</a></li>
+    <li><a href="Login.html">Login</a></li>
+  </ul>
+</nav>
+
+  </header>
+
+  <!-- Main content -->
+  <main>
+   <h3> <p id="myid">Buy directly from farmers and support local communities.</p><br></h3>
+    <!---<h2>
+      Vegetables<br>
+      Leafy Vegetables<br>
+      Fruits<br>
+      Seeds
+    </h2>--->
+
+    <div id="products"></div> <!-- React will load products here -->
+  </main>
+
+  <!-- Footer -->
+  <footer><br>
+    <p class="myclass">&copy; 2025 Farmer Market</p>
+  </footer>
+  
+  <script src="home.js"></script>
+</body>
+</html>
